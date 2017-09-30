@@ -14,7 +14,7 @@ Instructions for achieving this appearance are detailed below. Note that you wil
 
 2. Add rules to give the page's content appropriate colors, fonts, and sizes:
 
-    - The body text should be colored `#535353`, while the headers should use [UW puple](https://www.washington.edu/brand/graphic-elements/primary-color-palette/).
+    - The body text should be colored `#535353`, while the headers should use [UW purple](https://www.washington.edu/brand/graphic-elements/primary-color-palette/).
   
     - The body and headers should utilize the [UW Fonts](https://www.washington.edu/brand/graphic-elements/font-download/) for "Primary Headlines" and the "Body". You should access these fonts via a `<link>` to the [Google Fonts](https://fonts.google.com/) collection (be sure and get the correct weight for headers!)
 
