@@ -17,7 +17,8 @@ describe('Source code is valid', () => {
   })
 
   test('HTML has not been modified', () => {
-    expect(md5(html)).toBe('cc075298a5bb677ea2a3026662ba724c');    
+    let nospace = html.replace(/\s/g, ''); //strip all whitespace to account for platform modifications
+    expect(md5(nospace)).toBe('b52e5621c7c32dbc25348f6b2552b611');    
     //console.log(md5(html));
   });
 });
