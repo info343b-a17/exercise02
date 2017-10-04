@@ -28,6 +28,8 @@ Instructions for achieving this appearance are detailed below. Note that you wil
     
     - Add `.75rem` of space between the sides of the navbar and its content (so the links aren't flush with the window)
 
+    - To make sure the content sits below the fixed navbar, give the header a top margin of `3em`.
+
 4. Now that you've colored the navbar, style the links so they show up. The links in the navbar should be colored `white` and _not_ be [underlined](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration).
 
 5. The links should also be displayed as an undecorated _inline list_. Change the display of each list item so they are `inline`
